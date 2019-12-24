@@ -34,7 +34,8 @@ const styles = theme => ({
         boxSizing: 'border-box',
         float: 'left',
         overflowY: 'scroll',
-        overflowX: 'hidden'
+        overflowX: 'hidden',
+        borderRight: '1px solid #CCCCCC'
     },
     newNoteInput: {
         width: '100%',
