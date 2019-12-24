@@ -1,3 +1,4 @@
+//Debounce makes it so that the user has stopped typing for 1.5 seconds before sending a request to the database.
 export default function debounce(a,b,c){
     var d,e;
     return function(){
